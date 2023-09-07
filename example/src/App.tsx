@@ -1,12 +1,18 @@
 import * as React from 'react';
 
-import { StyleSheet, View } from 'react-native';
-import { CustomToptabsView } from 'react-native-custom-toptabs';
+import { StyleSheet, View, Text } from 'react-native';
+import { multiply } from 'react-native-custom-toptabs';
 
 export default function App() {
+  const [result, setResult] = React.useState<number | undefined>();
+
+  React.useEffect(() => {
+    multiply(3, 7).then(setResult);
+  }, []);
+
   return (
     <View style={styles.container}>
-      <CustomToptabsView color="#32a852" style={styles.box} />
+      <Text>Result: {result}</Text>
     </View>
   );
 }

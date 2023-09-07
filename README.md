@@ -1,6 +1,6 @@
 # react-native-custom-toptabs
 
-react native component that creating custom top tabs in sections
+desc
 
 ## Installation
 
@@ -11,11 +11,11 @@ npm install react-native-custom-toptabs
 ## Usage
 
 ```js
-import { CustomToptabsView } from "react-native-custom-toptabs";
+import { multiply } from 'react-native-custom-toptabs';
 
 // ...
 
-<CustomToptabsView color="tomato" />
+const result = await multiply(3, 7);
 ```
 
 ## Contributing
