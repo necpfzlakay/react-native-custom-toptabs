@@ -25,8 +25,8 @@ export const getStyles = ({ length = 1, maxItemWidth = width / 4.2, }) => StyleS
         // paddingBottom: 10,
     },
     switchWrapper: {
-        // borderWidth: 1,
-        height: 50,
+    // borderWidth: 1,
+    // height: 50,
     },
     switchLabel: {
         color: 'black',

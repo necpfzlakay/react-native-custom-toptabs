@@ -17,9 +17,7 @@ export declare const getStyles: ({ length, maxItemWidth, }: {
         justifyContent: "center";
         alignItems: "center";
     };
-    switchWrapper: {
-        height: number;
-    };
+    switchWrapper: {};
     switchLabel: {
         textAlign: "center";
         fontSize: number;

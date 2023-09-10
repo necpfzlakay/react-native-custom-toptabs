@@ -1,29 +1,21 @@
-import React from 'react';
-import { Text } from 'react-native';
-import { View } from 'react-native';
+
 // import {
 //   requireNativeComponent,
 //   UIManager,
 //   Platform,
 //   type ViewStyle,
-// } from 'react-native';
-import CustomTopTab, { CustomTopSectionItem } from './components/CustomTopSection/CustomTopSection';
+// } from 'react-native'; 
 
-// import { getStyles } from './styles';
-// import useTheme from '@hooks/useTheme';
-// import { ScrollView } from 'react-native-gesture-handler';
-// import CustomView from '../CustomView/CustomView';
-// import CustomTouchableOpacity from '../CustomTouchableOpacity/CustomTouchableOpacity';
-// import CustomText from '../CustomText/CustomText';
-// import { width } from '../../constants/Dimensions';
-// import { Animated } from 'react-native';
+export {default as CustomTopTab} from './components/CustomTopSection/CustomTopSection';
+export {default as CustomTopSectionItem} from './components/TopSectionContainer/TopSectionContainer';
+// export { CustomTopTab, CustomTopSectionItem }
 
 // type CustomToptabsProps = {
 //   routes: Array<String>,
 //   color: String,
 //   style: ViewStyle,
 // };
-
+ 
 
 // export const CustomToptabs = ({ routes }) =>
 //   UIManager.getViewManagerConfig('CustomTopTab') != null
@@ -32,23 +24,23 @@ import CustomTopTab, { CustomTopSectionItem } from './components/CustomTopSectio
 //       throw new Error(LINKING_ERROR);
 //     };
 
-export const CustomToptabs = () => {
+// const CustomToptabs = () => {
 
-  return (
-    <>
-      <View>
-        <CustomTopTab pages={['arr1', 'arr2']} >
-          <CustomTopSectionItem style={{}}>
-            <Text>CustomTopSectionItem</Text>
-          </CustomTopSectionItem>
-          <CustomTopSectionItem >
-            <Text>CustomTopSectionItem</Text>
-          </CustomTopSectionItem>
-        </CustomTopTab>
-      </View>
-    </>
-  )
-}
+//   return (
+//     <>
+//       <View>
+//         <CustomTopTab pages={['arr1', 'arr2']} >
+//           <CustomTopSectionItem style={{}}>
+//             <Text>CustomTopSectionItem</Text>
+//           </CustomTopSectionItem>
+//           <CustomTopSectionItem >
+//             <Text>CustomTopSectionItem</Text>
+//           </CustomTopSectionItem>
+//         </CustomTopTab>
+//       </View>
+//     </>
+//   )
+// }
 
 
 // const LINKING_ERROR = `The package 'react-native-custom-toptabs' doesn't seem to be linked. Please make sure: \n\n` +

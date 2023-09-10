@@ -33,7 +33,7 @@ export const getStyles = ({
   },
   switchWrapper: {
     // borderWidth: 1,
-    height: 50,
+    // height: 50,
   },
   switchLabel: {
     color: 'black',
