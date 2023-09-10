@@ -6,7 +6,9 @@ import { CustomToptabs } from 'react-native-custom-toptabs';
 export default function App() {
   return (
     <View style={styles.container}>
-      <CustomToptabs color="#32a852" style={styles.box} />
+      <CustomToptabs
+      // color="#32a852" style={styles.box}
+      />
     </View>
   );
 }
